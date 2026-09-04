@@ -1,0 +1,55 @@
+/* Main page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+/* Main heading */
+h1 {
+    font-size: 40px;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+
+/* Question input box */
+#question {
+    width: 500px;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+
+/* Ask button */
+button {
+    padding: 15px 25px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Button when mouse is placed on it */
+button:hover {
+    transform: scale(1.05);
+}
+
+
+/* Wrong answer area */
+#answer {
+    margin: 40px auto;
+    width: 600px;
+    padding: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: white;
+    min-height: 30px;
+}
